@@ -300,20 +300,11 @@
     <artifactId>endpoints-framework-maven-plugin</artifactId>
     <version>1.0.0</version>
 </plugin>
-	<plugin>
-     <groupId>com.google.appengine</groupId>
-     <artifactId>appengine-maven-plugin</artifactId>
-     <version>1.9.61</version>
-     <configuration>
-         <enableJarClasses>true</enableJarClasses>
-         <port>8181</port>
-         <address>0.0.0.0</address>
-     </configuration>
- </plugin>
+	
      <plugin>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.9</version>
+            <version>1.9.50</version>
         </plugin>
 
 		</plugins>
